@@ -1,2 +1,2 @@
 # html_css
- projetos html para estudo.
+ projetos html e css para estudo.
