@@ -17,6 +17,7 @@ img{
 .borda_vermelha:focus{
     border:4px solid #ff0000;
 }
+/*muda a cor do botão ao apontar o mouse*/
 button:hover{
     background: linear-gradient(to right, #0048f1, #04288a, #512b99);
 }
