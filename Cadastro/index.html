@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html> 
+    <head> 
+        <title>Cadastro</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <h1>Cadastre-se para acessar o sistema</h1>
+
+      <img src="img/brasao_gesp_v_cor.png" alt="Sp">
+
+      <div id="container" class="container">
+
+        <form method="get">
+          <div><label>CPF</label><input type="CPF" class="borda_vermelha" placeholder="Digite apenas numeros" required ></div>
+          <div><label>NOME</label><input type="NOME" class="borda_vermelha" required ></div>
+          <div><label>E-MAIL</label><input type="E-MAIL" class="borda_vermelha" required ></div>
+          <div><label>DATA DE NASCIMENTO</label><input id="date" type="date" required></div>
+          <div><label>ESTADO CIVIL</label>
+            <select>
+            <option value="Solteiro(a)"> <Valor>Solteiro(a)</Valor></option>
+            <option value="Solteiro(a)"> <Valor>Casado(a)</Valor></option>
+            <option value="Solteiro(a)"> <Valor>Divorciado(a)</Valor></option>
+            <option value="Solteiro(a)"> <Valor>Viúlvo(a)</Valor></option>
+            </select></div> 
+            <div><label>ENDEREÇO</label><input type="ENDEREÇO"></div>
+            <div><label>UF</label><input type="UF" ></div>
+            <div><label>BAIRRO</label><input type="BAIRRO"  ></div>
+            <div><label>CEP</label><input type="CEP"  ></div>
+            <div><label>CIDADE</label><input type="CIDADE" ></div>
+
+            <div>
+              <input type="checkbox" name="agreement" id="agreement" required>
+              <label for="agreement" id="label">Eu li e aceito os<a href="Termos.html">termos de uso</a></label>
+            </div>
+
+          <button class="enviar">Cadastrar-se</button>
+        </form>
+      </div>
+    <body> 
+      </body>
+    </html> 
